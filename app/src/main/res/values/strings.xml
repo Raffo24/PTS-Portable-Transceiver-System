@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="baud_prompt">Choose Baudrate</string>
+    <string name="recent_call_button">recent call botton</string>
+    <string name="dialpad_button">dialpad botton</string>
+    <string name="chat_button">chat botton</string>
+    <string name="contact_page_button">contact_page_button</string>
+    <string-array name="baud_arrays">
+        <item>300 baud</item>
+        <item>1200 baud</item>
+        <item>2400 baud</item>
+        <item>4800 baud</item>
+        <item>9600 baud</item>
+        <item>19200 baud</item>
+        <item>38400 baud</item>
+        <item>576600 baud</item>
+        <item>744880 baud</item>
+        <item>115200 baud</item>
+        <item>230400 baud</item>
+        <item>250000 baud</item>
+    </string-array>
+
+    <string name="call">CALL</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cognome">Cognome</string>
+    <string name="numero">Numero</string>
+</resources>

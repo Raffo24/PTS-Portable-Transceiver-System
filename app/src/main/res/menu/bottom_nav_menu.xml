@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="addressbook"
+        android:id="@+id/contactBtn"
+        android:icon="@drawable/addressbook_40"/>
+    <item
+        android:id="@+id/recentCallBtn"
+        android:title="incoming_calls"
+        android:icon="@drawable/chiamate_40"/>
+    <item
+        android:id="@+id/chatListBtn"
+        android:title="messaging_chat"
+        android:icon="@drawable/messaging_chat_40"/>
+    <item
+        android:id="@+id/dialpadBtn"
+        android:title="dialpad"
+        android:icon="@drawable/dialpad"/>
+
+</menu>

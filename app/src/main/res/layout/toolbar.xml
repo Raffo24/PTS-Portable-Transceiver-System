@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/main_color"
+    android:layout_alignParentBottom="true">
+    <ImageButton
+        android:id="@+id/btnRecentCall"
+        android:contentDescription="@string/recent_call_button"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/btnChat"
+        app:srcCompat="@drawable/recent_call"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/btnDialpad"
+        android:contentDescription="@string/dialpad_button"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        app:srcCompat="@drawable/dialpad"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/btnChat"
+        android:contentDescription="@string/chat_button"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/btnDialpad"
+        app:srcCompat="@drawable/chat"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/btnContactPage"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/btnRecentCall"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/contact_page_button"
+        app:srcCompat="@drawable/contact_page" />
+
+
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/service" />
+    </RelativeLayout>-->
+
+</RelativeLayout>
+

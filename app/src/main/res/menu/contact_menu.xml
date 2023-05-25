@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="modifica"
+        android:id="@+id/modifica_contatto_btn"
+        />
+    <item
+        android:id="@+id/chiama_btn"
+        android:title="chiama"
+        />
+    <item
+        android:id="@+id/messaggia_btn"
+        android:title="messaggia"
+        />
+</menu>

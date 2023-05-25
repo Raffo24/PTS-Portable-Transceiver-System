@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/main_color"
+    android:id="@+id/options">
+
+    <ImageButton
+        android:id="@+id/impostazioni"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="options"
+        android:src="@drawable/service" />
+    <ImageButton
+        android:id="@+id/indietro"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="options"
+        android:src="@drawable/arrow_back_40"
+        android:visibility="gone"/>
+</RelativeLayout>
