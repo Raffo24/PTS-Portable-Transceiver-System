@@ -1,4 +1,5 @@
 # PTS Portable Transceiver System
+#Attenzione ! per ora qui viene caricato solo il front-end, tra qualche mese aggiungerò tutte le parti del progetto esattamente nello stesso stato con cui sono state esposte alla maker faire 2022
 ## Obiettivo
 ll progetto si propone di sviluppare un sistema di comunicazione aggiuntivo interfacciabile con il cellulare al fine di consentire comunicazioni in zone non provviste di copertura e\o mezzi di comunicazione “classici”: come wi-fi, 3G, 4G e linea telefonica.
 Questo è reso possibile dallo sviluppo di appositi moduli in grado di trasmettere e ricevere voce e testo, che si interfacciano con il cellulare attraverso un'applicazione, dotata di un'interfaccia grafica intuitiva e di facile utilizzo.
